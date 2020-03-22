@@ -1,7 +1,9 @@
-var num1 = 6;
-var num2 = 2;
+var alertString;
+alertString = addString("WebCamp");
 
-alert(num1 + num2);
-alert(num1 - num2);
-alert(num1 * num2);
-alert(num1 / num2);
+alert(alertString);
+
+function addString(strA){
+	var addStr = "Hello" + strA;
+	return addStr;
+}
